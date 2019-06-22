@@ -32,7 +32,7 @@ defmodule Guardian.DB.Mixfile do
   defp deps do
     [
       {:guardian, "~> 1.0"},
-      {:ecto, "~> 2.2"},
+      {:ecto, "~> 2.1.6"},
       {:postgrex, "~> 0.13", optional: true},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:credo, ">= 0.0.0", only: [:dev, :test], runtime: false}
